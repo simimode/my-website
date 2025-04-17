@@ -1,6 +1,6 @@
 body {
 
-  background-color: #fff0f5; /* light pinkish/lavender tone */
+  background-color: #fff0f5; 
   color: #253e53;
   font-family: 'Atma', cursive;
   text-align: center;
@@ -50,13 +50,6 @@ body {
   text-align: center;
 }
 
-/* Header styling */
-header {
-  background-color: #ffccf9;
-  padding: 30px;
-  border-bottom: 4px dashed #ffc0cb;
-  box-shadow: 0 4px 8px rgba(255, 192, 203, 0.4);
-}
 
 /* Main content spacing */
 main {
@@ -92,23 +85,22 @@ a {
   justify-content: center;
   gap: 15px;
   margin-top: 20px;
-  
-}
-.buttons {
-  background-color: #b2f0e6;
-  border: none;
-  border-radius: 25px;
-  padding: 10px 20px;
-  font-size: 1rem; /* smaller font */
-  max-width: 100px; /* keeps long buttons from stretching */
-  white-space: normal; /* allows wrapping if needed */
-  overflow-wrap: break-word;
-  color: #444;
-  font-family: 'Atma', cursive;
-  cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: all 0.2s ease;
-  text-align: center;
+  .buttons {
+    background-color: #b2f0e6;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1rem; /* smaller font */
+    max-width: 100px; /* keeps long buttons from stretching */
+    white-space: normal; /* allows wrapping if needed */
+    overflow-wrap: break-word;
+    color: #444;
+    font-family: 'Atma', cursive;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+    text-align: center;
+  }
 }
   
 }

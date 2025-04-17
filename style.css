@@ -1,58 +1,28 @@
-<<<<<<< HEAD
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 50px;
-    background-color: #f5f5f5;
-  }
-  
-  header {
-    background-color: #c2a8e6;
-    color: rgb(244, 189, 244);
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  button {
-    background-color: #9ab7ff;
-    color: rgb(247, 244, 244);
-    border: none;
-    padding: 15px 25px;
-    font-size: 16px;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #4b5b84;
-  }
-=======
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 50px;
-    background-color: #f5f5f5;
-  }
-  
-  header {
-    background-color: #6200ea;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  button {
-    background-color: #03dac5;
-    color: black;
-    border: none;
-    padding: 15px 25px;
-    font-size: 16px;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #018786;
-  }
->>>>>>> e61c2c10a029a6cfebc4d5ce13337a4be2651e4b
-  
+
+  background-color: #fff0f5; /* light pinkish/lavender tone */
+  color: #253e53;
+  font-family: 'Atma', cursive;
+  text-align: center;
+  padding: 50px;
+  background-color: #cfcfc4;
+}
+
+header {
+  background-color: #c2a8e6;
+  color: rgb(247, 244, 247);
+  padding: 15px;
+  max-width: 600px;  /* limits how wide it can stretch */
+  margin: 20px auto; /* centers it horizontally */
+  border-radius: 10px;
+}
+
+button {
+  background-color: #9ab7ff;
+  color: rgb(247, 244, 244);
+  border: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}

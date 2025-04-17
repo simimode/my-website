@@ -25,4 +25,90 @@ button {
   font-size: 16px;
   border-radius: 8px;
   cursor: pointer;
+  button {
+    background-color: #a18aff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #6f63b6;
+  }
+  /* General body style */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ffe6f0, #e6f7ff);
+  color: #444;
+  font-family: 'Atma', cursive;
+  text-align: center;
+}
+
+/* Header styling */
+header {
+  background-color: #ffccf9;
+  padding: 30px;
+  border-bottom: 4px dashed #ffc0cb;
+  box-shadow: 0 4px 8px rgba(255, 192, 203, 0.4);
+}
+
+/* Main content spacing */
+main {
+  padding: 40px 20px;
+}
+
+/* Buttons */
+button {
+  background-color: #b2f0e6;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  color: #444;
+  font-family: 'Atma', cursive;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #a0e0d0;
+  transform: scale(1.05);
+}
+
+/* Links inside buttons */
+a {
+  text-decoration: none;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  
+}
+.buttons {
+  background-color: #b2f0e6;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1rem; /* smaller font */
+  max-width: 100px; /* keeps long buttons from stretching */
+  white-space: normal; /* allows wrapping if needed */
+  overflow-wrap: break-word;
+  color: #444;
+  font-family: 'Atma', cursive;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+  text-align: center;
+}
+  
 }

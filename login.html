@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Horizon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Atma&display=swap" rel="stylesheet">
+  <style>
+    body {
+        
+      background-color: #fff0f5;
+      font-family: 'Atma', cursive;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .login-box {
+      background-color: #ffe6fa;
+      border: 3px dashed #ffc8dd;
+      border-radius: 20px;
+      padding: 30px 40px;
+      box-shadow: 0 4px 8px rgba(255, 182, 193, 0.3);
+      width: 300px;
+      animation: popIn 0.6s ease-out;
+      text-align: center;
+    }
+
+    @keyframes popIn {
+      0% {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .login-box img {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+
+    .login-box h2 {
+      margin-top: 0;
+      color: #c97ba9;
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 2px solid #ffc8dd;
+      border-radius: 15px;
+      font-family: 'Atma', cursive;
+      font-size: 1rem;
+    }
+
+    .checkbox {
+      text-align: left;
+      margin: 10px 0;
+      font-size: 0.9rem;
+      color: #a46492;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 25px;
+      background-color: #b2f0e6;
+      font-size: 1rem;
+      font-family: 'Atma', cursive;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .login-box button:hover {
+      background-color: #a0e0d0;
+    }
+
+    .error-msg {
+      color: #ff6f91;
+      margin-top: 10px;
+      font-size: 0.9rem;
+      display: none;
+    }
+    .create-account {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #a46492;
+  text-align: center;
+}
+
+.create-account a {
+  color: #ff8fab;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.create-account a:hover {
+  text-decoration: underline;
+}
+.forgot-password a {
+      color: #ff8fab;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .forgot-password a:hover {
+      text-decoration: underline;
+    }
+
+    .error-msg {
+      color: #ff6f91;
+      margin-top: 10px;
+      font-size: 0.9rem;
+      display: none;
+    }
+
+  </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">🌸 Horizon</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
+          <li><a href="login.html">Log In</a></li>
+        </ul>
+      </nav>
+      <div style="padding-top: 70px;">
+        <!-- Your page content here -->
+      </div>
+      <style>
+        .navbar {
+          position: fixed;
+          top: 0;
+          width: 97%;
+          background-color: #ffe6fa;
+          padding: 15px 30px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: 3px dashed #ffc8dd;
+          z-index: 999;
+          box-shadow: 0 2px 5px rgba(255, 182, 193, 0.3);
+          font-family: 'Atma', cursive;
+        }
+      
+        .nav-logo {
+          font-size: 1.5rem;
+          color: #c97ba9;
+        }
+      
+        .nav-links {
+          list-style: none;
+          display: flex;
+          gap: 20px;
+          margin: 0;
+          padding: 0;
+        }
+      
+        .nav-links li a {
+          text-decoration: none;
+          color: #a46492;
+          font-weight: bold;
+          transition: color 0.3s ease;
+        }
+      
+        .nav-links li a:hover {
+          color: #ff8fab;
+        }
+      
+        body {
+          margin: 0;
+          padding: 0;
+        }
+      
+        .content {
+          padding-top: 80px;
+        }
+      </style>
+                  
+    <div class="login-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/4712/4712055.png" alt="Pastel Logo">
+        <h2>Login</h2>
+        <form id="loginForm">
+          <input type="text" id="username" placeholder="Username" required>
+          <input type="password" id="password" placeholder="Password" required>
+          <div class="checkbox">
+            <input type="checkbox" id="remember"> 
+            <label for="remember">Remember Me</label>
+          </div>
+          
+          <button type="submit">Log In</button>
+          <div class="error-msg" id="error">Sorry! It seems that your login was invalid. Try again or press "Forgot Password" to reset your password!</div>
+        </form>
+        <div class="forgot-password">
+            <p><a href="forgotpassword.html">Forgot Password?</a></p>
+          </div>      
+        <!-- 🩷 Now it’s inside the box and styled perfectly -->
+        <div class="create-account">
+          <p>Don't have an account? <a href="signup.html">Create one here!</a></p>
+        </div>
+        <div class="create-account">
+            <p>Need help? <a href="mailto:support@yourdomain.com?subject=Need%20Assistance&body=Please%20help%20me%20with...">Email support</a></p>
+          </div>
+          <a href="mailto:simi.modey@gmail.com">Email me!</a>          
+      </div>
+      
+      <script>
+        document.getElementById("loginForm").addEventListener("submit", function(e) {
+          e.preventDefault();
+      
+          const username = document.getElementById("username").value;
+          const password = document.getElementById("password").value;
+          const users = JSON.parse(localStorage.getItem("users")) || {};
+          const user = users[username];
+      
+          if (user && user.password === password) {
+            if (document.getElementById("remember").checked) {
+              localStorage.setItem("rememberMe", username);
+            }
+            window.location.href = "index.html";
+          } else {
+            document.getElementById("error").style.display = "block";
+          }
+        });
+      
+        window.onload = function() {
+          const savedUsername = localStorage.getItem("rememberMe");
+          if (savedUsername) {
+            document.getElementById("username").value = savedUsername;
+            document.getElementById("remember").checked = true;
+          }
+        };
+      </script>
+      
+</html>

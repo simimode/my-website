@@ -140,6 +140,43 @@ a {
   gap: 20px;
   margin: 30px;
 }
+.create-account {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #a46492;
+}
+
+.create-account a {
+  color: #ff8fab;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.create-account a:hover {
+  text-decoration: underline;
+}
+.checkbox {
+  display: flex;
+  align-items: center; /* Centers the checkbox and text vertically */
+  margin: 10px 0;
+  font-size: 0.9rem;
+  color: #a46492;
+}
+
+.checkbox input {
+  margin-right: 8px; /* Adds some space between the checkbox and the text */
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #ffe6fa;
+  z-index: 1000;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 }
 
